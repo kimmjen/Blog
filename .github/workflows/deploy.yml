@@ -35,7 +35,7 @@ jobs:
       - uses: pnpm/action-setup@v3 # pnpm을 사용하는 경우 이것을 주석 해제하세요
       # - uses: oven-sh/setup-bun@v1 # Bun을 사용하는 경우 이것을 주석 해제하세요
       - name: Setup Node
-        uses: actions/setup-node@v4
+        uses: pnpm/action-setup@v3
         with:
           node-version: 20
           cache: pnpm # 또는 pnpm / yarn
