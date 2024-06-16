@@ -37,6 +37,7 @@ jobs:
       - name: Setup Node
         uses: pnpm/action-setup@v3
         with:
+          version: 9
           node-version: 20
           cache: pnpm # 또는 pnpm / yarn
       - name: Setup Pages
