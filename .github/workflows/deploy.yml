@@ -6,7 +6,7 @@ on:
   # `main` 브랜치를 대상으로 하는 푸시에 대해 실행합니다. 기본 브랜치로 `master`를
   # 사용하는 경우, 이를 `master`로 변경하세요.
   push:
-    branches: [main]
+    branches: [master]
 
   # Actions 탭에서 이 워크플로우를 수동으로 실행할 수 있도록 허용합니다.
   workflow_dispatch:
